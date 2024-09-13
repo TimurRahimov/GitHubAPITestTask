@@ -45,7 +45,7 @@ GH_API_REPOSITORY_NAME = "Имя репозитория"
 
 10. Запустить скрипт:
 
-- Для Windows: `.\venv\Scripts\python.exe main.py`
-- Для Linux: `python3 main.py`
+- Для Windows: `.\venv\Scripts\python.exe test_api.py`
+- Для Linux: `python3 test_api.py`
 
 11. По прохождении всех тестов в командной строке отобразится сообщение "Ran 1 tests in **.***s", под которым будет написано "OK"

@@ -1,5 +1,4 @@
 # GitHub API
-https://github.com/TimurRahimov/GitHubAPITestTask.git
 
 Автоматический тест для проверки работы с [GitHub API](https://docs.github.com/en/rest) на языке Python.
 

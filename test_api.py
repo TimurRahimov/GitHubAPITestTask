@@ -13,7 +13,7 @@ class GitHubAPI(unittest.TestCase):
         self.access_token = os.getenv("GH_API_TOKEN")
         self.repo_name = os.getenv("GH_API_REPOSITORY_NAME")
 
-    def test_creating_and_deleting_new_public_repo(self):
+    def test_creating_getting_and_deleting_new_public_repo(self):
         self.__creating_new_public_repo()
         self.__getting_added_public_repo()
         self.__deleting_added_public_repo()
